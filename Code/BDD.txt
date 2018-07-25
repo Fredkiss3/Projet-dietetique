@@ -1,0 +1,112 @@
+Principales classes :
+
+- Aliments :
+
+	-> Membres : 
+			Principaux  :
+
+			- Nom de l'aliment. -> identifiant
+			- Catégorie
+
+
+	Attributs minéraux:
+
+		- calcium 			(mg)
+		- chlore			(mg)
+		- cuivre			(mg)
+		- fer  				(mg)
+		- iode				(mg)
+		- magnésium			(mg)
+		- manganèse			(mg)
+		- phosphore			(mg)
+		- potassium			(mg)
+		- sodium			(mg)
+		- souffre			(mg)
+		- zinc				(mg)
+		- vit A 			(mg)
+		- vit B1			(mg)
+		- vit B2			(mg)
+		- vit B6			(mg)
+		- vit B9			(mg)
+		- vit C 			(mg)
+		- vit D 			(mg)
+		- vit PP 			(µg)
+
+	Attributs organiques :
+
+		- acides gras saturés			(g)
+		- acides gras mono-insaturés	(g)
+		- acides gras poly-insaturés	(g)
+
+	Attributs énergétiques :
+
+		- protéines : animales  		(g)
+		- protéines : végétales 		(g)
+
+		- Glucides  : sucre 			(g)
+		- Glucides  : amidon			(g)
+
+		- Lipides   : origines animales 	(g)
+		- Lipides   : origines végétales 	(g)
+
+
+	Autres :
+
+		- cholestérol						(mg)
+		- Energie pour 100g					(kcal)
+		- Energie pour 100g					(kjoules)
+		- fibres							(mg)
+
+
+	-> Méthodes : 
+		1- De création :
+			* initialisation 
+				+ inputs : None
+				+ output : Aliment vide
+
+			* Remplissage_des_valeurs
+				+ inputs : dico des données
+				+ output : Aliment avec caractéristiques
+
+		De modification :
+			-> Remplissage_des_valeurs (En cas de modification directe de l'aliment)
+			-> Calcul_de_la_quantite (En cas de modification du poids)
+
+		De calculs :
+			* Calcul_de_la_quantite 
+				+ inputs : poids, unite (-> g, mg, µg)
+				+ output : dico des données 
+
+			* __add__ 
+				+ inputs : Aliment_simple ou Aliment_composé
+				+ output : Aliment
+
+		De visualisation :
+			* Retourner_les_valeurs
+				+ input : None
+				+ outputs : dico des attributs 
+
+		De bilans :
+			* None
+
+		De Suppresion : 
+			* None
+
+
+
+
+- Aliments simples : 
+		--> Dérive directement de "Aliment"
+
+
+
+
+
+- Aliments Composés : 
+		--> Dérive de "Aliment"
+
+  -> Membres additionnels :
+  		- Liste des aliments contenus
+  		- Proportions des aliments contenus
+
+  

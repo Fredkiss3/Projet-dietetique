@@ -1,0 +1,57 @@
+Les attributs cités ci-dessous sont 
+donnés pour une quantité de 100g par
+aliment.
+
+Attributs minéraux:
+
+- calcium
+- chlore
+- cuivre
+- fer
+- iode
+- magnésium
+- manganèse
+- phosphore
+- potassium
+- sodium
+- souffre
+- zinc
+- vit A
+- vit B1
+- vit B2
+- vit B6
+- vit B9
+- vit C
+- vit D
+- vit PP
+
+
+Attributs organiques :
+
+- acides gras saturés
+- acides gras mono-insaturés
+- acides gras poly-insaturés
+
+Attributs énergétiques :
+
+- protéines : animales
+- protéines : végétales
+
+- Glucides  : sucre
+- Glucides  : amidon
+
+- Lipides   : origines animales
+- Lipides   : origines végétales
+
+
+Autres :
+
+- cholestérol
+- nombre de Kcals pour 100g
+- fibres
+
+Le reste :
+
+- numéro de l'aliment sur la liste (233 au total).
+- Nom de l'aliment.
+- Catégorie
